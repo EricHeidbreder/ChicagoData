@@ -19,4 +19,4 @@ results = client.get("qmqz-2xku", 'csv',
 # Convert to pandas DataFrame
 results_df = pd.DataFrame.from_records(results)
 
-results_df.to_csv('././data/beach_water_quality_2013-present', index=False, header=results_df.iloc[0].tolist())
+results_df.to_csv('./data/beach_water_quality_2013-present', index=False, header=results_df.iloc[0].tolist())
